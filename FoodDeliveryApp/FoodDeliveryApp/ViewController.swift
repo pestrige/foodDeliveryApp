@@ -12,11 +12,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .red
+        view.backgroundColor = AppColors.white
         
         let label = UILabel()
         label.text = "Font test"
-        label.textColor = .white
+        label.textColor = AppColors.grayDark
         label.font = .Roboto.regular.size(of: 32)
         label.translatesAutoresizingMaskIntoConstraints = false
         
