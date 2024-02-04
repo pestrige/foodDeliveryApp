@@ -12,6 +12,10 @@
 		38CB101F2B6F62FD0041D9CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB101E2B6F62FD0041D9CD /* ViewController.swift */; };
 		38CB10242B6F63000041D9CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38CB10232B6F63000041D9CD /* Assets.xcassets */; };
 		38CB10272B6F63000041D9CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38CB10252B6F63000041D9CD /* LaunchScreen.storyboard */; };
+		38CB10332B6F6B1E0041D9CD /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CB10302B6F6B1E0041D9CD /* Roboto-Bold.ttf */; };
+		38CB10342B6F6B1E0041D9CD /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CB10312B6F6B1E0041D9CD /* Roboto-Regular.ttf */; };
+		38CB10352B6F6B1E0041D9CD /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38CB10322B6F6B1E0041D9CD /* Roboto-Medium.ttf */; };
+		38CB10382B6F6BF30041D9CD /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CB10372B6F6BF30041D9CD /* UIFont+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		38CB10232B6F63000041D9CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38CB10262B6F63000041D9CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38CB10282B6F63000041D9CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38CB10302B6F6B1E0041D9CD /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		38CB10312B6F6B1E0041D9CD /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		38CB10322B6F6B1E0041D9CD /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		38CB10372B6F6BF30041D9CD /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 		38CB10192B6F62FD0041D9CD /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				38CB102E2B6F6AF30041D9CD /* Resources */,
 				38CB101A2B6F62FD0041D9CD /* AppDelegate.swift */,
 				38CB101C2B6F62FD0041D9CD /* SceneDelegate.swift */,
 				38CB101E2B6F62FD0041D9CD /* ViewController.swift */,
@@ -62,6 +71,33 @@
 				38CB10282B6F63000041D9CD /* Info.plist */,
 			);
 			path = FoodDeliveryApp;
+			sourceTree = "<group>";
+		};
+		38CB102E2B6F6AF30041D9CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38CB10362B6F6BD00041D9CD /* Extensions */,
+				38CB102F2B6F6AFC0041D9CD /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		38CB102F2B6F6AFC0041D9CD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				38CB10302B6F6B1E0041D9CD /* Roboto-Bold.ttf */,
+				38CB10322B6F6B1E0041D9CD /* Roboto-Medium.ttf */,
+				38CB10312B6F6B1E0041D9CD /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		38CB10362B6F6BD00041D9CD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				38CB10372B6F6BF30041D9CD /* UIFont+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +158,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CB10352B6F6B1E0041D9CD /* Roboto-Medium.ttf in Resources */,
 				38CB10272B6F63000041D9CD /* LaunchScreen.storyboard in Resources */,
 				38CB10242B6F63000041D9CD /* Assets.xcassets in Resources */,
+				38CB10342B6F6B1E0041D9CD /* Roboto-Regular.ttf in Resources */,
+				38CB10332B6F6B1E0041D9CD /* Roboto-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +175,7 @@
 			files = (
 				38CB101F2B6F62FD0041D9CD /* ViewController.swift in Sources */,
 				38CB101B2B6F62FD0041D9CD /* AppDelegate.swift in Sources */,
+				38CB10382B6F6BF30041D9CD /* UIFont+Extension.swift in Sources */,
 				38CB101D2B6F62FD0041D9CD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
